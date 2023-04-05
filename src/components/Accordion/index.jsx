@@ -74,7 +74,7 @@ const Accordion = () => {
                       <View onClick={() => showContentModal({ control: 'video', file: item.file, reference: item.title })}>
                         <ViewInfo>
                           <RiMovieLine fontSize={32} />
-                          <span>DINÂNICA</span>
+                          <span>DINÂMICA</span>
                           <p>em video</p>
                         </ViewInfo>
                       </View>
