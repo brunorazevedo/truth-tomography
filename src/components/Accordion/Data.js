@@ -1,30 +1,15 @@
+import Endondondotia1 from "/src/assets/tomography/endondontia/video_endondontia.mp4"
+import Endondondotia_laudo from "/src/assets/tomography/endondontia/laudo_endondotia.png"
+
 export const Data = [
     {
         title: 'ENDONDONTIA',
         textInfo: 'Selecione em qual formato você deseja visualizar os arquivos.',
         file: {
-            video: "/src/assets/tomography/endondontia/video_endondontia.mp4",
+            video: Endondondotia1,
             images: [
                 {
-                    path: "/src/assets/tomography/endondontia/laudo_endondotia.png"
-                },
-                {
-                    path: "/src/assets/tomography/endondontia/img1_endondontia.jpg"
-                },
-                {
-                    path: "/src/assets/tomography/endondontia/img2_endondontia.jpg"
-                },
-                {
-                    path: "/src/assets/tomography/endondontia/img3_endondontia.jpg"
-                },
-                {
-                    path: "/src/assets/tomography/endondontia/img4_endondontia.jpg"
-                },
-                {
-                    path: "/src/assets/tomography/endondontia/img5_endondontia.jpg"
-                },
-                {
-                    path: "/src/assets/tomography/endondontia/img6_endondontia.jpg"
+                    path: Endondondotia_laudo,
                 },
             ]
         }
