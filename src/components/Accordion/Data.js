@@ -6,17 +6,12 @@ import Endondondotia_Img3 from "/src/assets/tomography/endondontia/img3_endondon
 import Endondondotia_Img4 from "/src/assets/tomography/endondontia/img4_endondontia.jpg"
 import Endondondotia_Img5 from "/src/assets/tomography/endondontia/img5_endondontia.jpg"
 import Endondondotia_Img6 from "/src/assets/tomography/endondontia/img6_endondontia.jpg"
-
-
 import Cirurgia1 from "/src/assets/tomography/cirurgia/video_cirurgia.mp4"
-import Cirurgia_laudo from "/src/assets/tomography/endondontia/laudo_cirurgia.png"
+import Cirurgia_laudo from "/src/assets/tomography/cirurgia/laudo_cirurgia.png"
 import Cirurgia_Img3D from "/src/assets/tomography/cirurgia/img3D__cirurgia.jpg"
 import Cirurgia_Img1 from "/src/assets/tomography/cirurgia/img1__cirurgia.jpg"
 import Cirurgia_Img2 from "/src/assets/tomography/cirurgia/img2__cirurgia.jpg"
 import Cirurgia_Img3 from "/src/assets/tomography/cirurgia/img3__cirurgia.jpg"
-
-
-
 
 
 
