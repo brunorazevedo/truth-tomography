@@ -10,7 +10,6 @@ export function Header() {
       <p>Bem-vindo ao</p>
       <Link to="/">
         <h1>TRUTH TOMOGRAPHY</h1>
-        <img src="/src/assets/328320771_1296043307627062_8365510770509826528_n.jpg"/>
       </Link>
 
       <Nav>
