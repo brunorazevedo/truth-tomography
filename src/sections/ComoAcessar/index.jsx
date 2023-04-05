@@ -14,7 +14,7 @@ export function ComoAcessar() {
         <WrappersCards>
           <Wrapper>
             <Cards
-              title=" 1. Assinar o termo de consentimento e esclarecido"
+              title=" 1. Assinar o termo de consentimento livre e esclarecido"
             />
 
             <CardsText
