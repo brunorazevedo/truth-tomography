@@ -12,7 +12,22 @@ import Cirurgia_Img3D from "/src/assets/tomography/cirurgia/img3D__cirurgia.jpg"
 import Cirurgia_Img1 from "/src/assets/tomography/cirurgia/img1__cirurgia.jpg"
 import Cirurgia_Img2 from "/src/assets/tomography/cirurgia/img2__cirurgia.jpg"
 import Cirurgia_Img3 from "/src/assets/tomography/cirurgia/img3__cirurgia.jpg"
-
+import Implante1 from "/src/assets/tomography/implantodontia/video_implante.mp4"
+import Implante_laudo from "/src/assets/tomography/implantodontia/laudo_implante.png"
+import Implante_Img1 from "/src/assets/tomography/implantodontia/img1_implante.jpg"
+import Implante_Img2 from "/src/assets/tomography/implantodontia/img2_implante.jpg"
+import Implante_Img3 from "/src/assets/tomography/implantodontia/img3_implante.jpg"
+import Implante_Img4 from "/src/assets/tomography/implantodontia/img4_implante.jpg"
+import Implante_Img5 from "/src/assets/tomography/implantodontia/img5_implante.jpg"
+import Implante_Img6 from "/src/assets/tomography/implantodontia/img6_implante.jpg"
+import Implante_Img7 from "/src/assets/tomography/implantodontia/img7_implante.jpg"
+import Implante_Img8 from "/src/assets/tomography/implantodontia/img8_implante.jpg"
+import Ortodontia1 from "/src/assets/tomography/ortodontia/video_ortodontia.mp4"
+import Ortodontia_laudo from "/src/assets/tomography/ortodontia/laudo_ortodontia.png"
+import Ortodontia_Img3D from "/src/assets/tomography/ortodontia/img3D_ortodontia.jpg"
+import Ortodontia_Img1 from "/src/assets/tomography/ortodontia/img1_ortodontia.jpg"
+import Ortodontia_Img2 from "/src/assets/tomography/ortodontia/img2_ortodontia.jpg"
+import Ortodontia_Img3 from "/src/assets/tomography/ortodontia/img3_ortodontia.jpg"
 
 
 export const Data = [
@@ -76,34 +91,34 @@ export const Data = [
         title: 'IMPLANTODONTIA',
         textInfo: 'Selecione em qual formato você deseja visualizar os arquivos.',
         file: {
-            video: "/src/assets/tomography/implantodontia/video_implante.mp4",
+            video: Implante1,
             images: [
                 {
-                    path: "/src/assets/tomography/implantodontia/laudo_implante.png"
+                    path: Implante_laudo,
                 },
                 {
-                    path: "/src/assets/tomography/implantodontia/img1_implante.jpg"
+                    path: Implante_Img1,
                 },
                 {
-                    path: "/src/assets/tomography/implantodontia/img2_implante.jpg"
+                    path: Implante_Img2,
                 },
                 {
-                    path: "/src/assets/tomography/implantodontia/img3_implante.jpg"
+                    path: Implante_Img3,
                 },
                 {
-                    path: "/src/assets/tomography/implantodontia/img4_implante.jpg"
+                    path: Implante_Img4,
                 },
                 {
-                    path: "/src/assets/tomography/implantodontia/img5_implante.jpg"
+                    path: Implante_Img5,
                 },
                 {
-                    path: "/src/assets/tomography/implantodontia/img6_implante.jpg"
+                    path: Implante_Img6,
                 },
                 {
-                    path: "/src/assets/tomography/implantodontia/img7_implante.jpg"
+                    path: Implante_Img7,
                 },
                 {
-                    path: "/src/assets/tomography/implantodontia/img8_implante.jpg"
+                    path: Implante_Img8,
                 },
             ]
         }
@@ -113,22 +128,22 @@ export const Data = [
         title: 'ORTODONTIA',
         textInfo: 'Selecione em qual formato você deseja visualizar os arquivos.',
         file: {
-            video: "/src/assets/tomography/ortodontia/video_ortodontia.mp4",
+            video: Ortodontia1,
             images: [
                 {
-                    path: "/src/assets/tomography/ortodontia/laudo_ortodontia.png"
+                    path: Ortodontia_laudo,
                 },
                 {
-                    path: "/src/assets/tomography/ortodontia/img3D_ortodontia.jpg"
+                    path: Ortodontia_Img3D,
                 },
                 {
-                    path: "/src/assets/tomography/ortodontia/img1_ortodontia.jpg"
+                    path: Ortodontia_Img1,
                 },
                 {
-                    path: "/src/assets/tomography/ortodontia/img2_ortodontia.jpg"
+                    path: Ortodontia_Img2,
                 },
                 {
-                    path: "/src/assets/tomography/ortodontia/img3_ortodontia.jpg"
+                    path: Ortodontia_Img3,
                 },
             ]
         }
