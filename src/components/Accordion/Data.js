@@ -3,7 +3,7 @@ export const Data = [
         title: 'ENDONDONTIA',
         textInfo: 'Selecione em qual formato você deseja visualizar os arquivos.',
         file: {
-            video: "/src/assets/tomography/endondontia/video_endondontia.mp4",
+            video: "../../assets//tomography/cirurgia/video_cirurgia.mp4",
             images: [
                 {
                     path: "/src/assets/tomography/endondontia/laudo_endondotia.png"
