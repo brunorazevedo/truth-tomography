@@ -25,7 +25,7 @@ export function ComoAcessar() {
               e dinâmica)"
             />
 
-            <CardsText title="3. Acessar e visualizarduas abas (estática e dinâmica) de mais umaespecialidade. VOCÊ ESCOLHE!" />
+            <CardsText title="3. Acessar e visualizar duas abas (estática e dinâmica) de mais uma especialidade. VOCÊ ESCOLHE!" />
           </Wrapper>
           <FooterCards />
           <p>
@@ -37,7 +37,11 @@ export function ComoAcessar() {
             imagens de TCFC. Reiteramos que nosso objetivo é disseminar o
             conhecimento!!
           </p>
+
+         
         </WrappersCards>
+
+       
       </Center>
     </Container>
   );

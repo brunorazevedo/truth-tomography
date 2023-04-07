@@ -83,7 +83,7 @@ const Accordion = () => {
                         <ViewInfo>
                           <RiStickyNoteLine fontSize={32} />
                           <span>ESTÁTICA</span>
-                          <p>em texto</p>
+                          <p>em template</p>
                         </ViewInfo>
                       </View>
                     </WrapperView>

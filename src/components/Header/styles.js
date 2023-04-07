@@ -27,11 +27,13 @@ export const Container = styled.header`
 
 export const Nav = styled.nav`
 
+
    ul{
       display: flex;
       justify-content: center;
       align-items: center;
       margin-top: 48px;
+      animation-name: slide 2s;
 
       @media(max-width:550px){
         width: 100%;
@@ -65,3 +67,4 @@ export const Nav = styled.nav`
 
    }
 `;
+
