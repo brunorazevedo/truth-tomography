@@ -10,12 +10,15 @@ import { Center } from "../../components/Center";
 import { Link } from "react-router-dom";
 import { Button } from "../../components/Button";
 
+
 export function Termo() {
   return (
     <div>
-      <Container>
+      <Container id="termo">
         <Center>
-          <h1>TRUTH TOMOGRAPHY</h1>
+             <h1>TRUTH TOMOGRAPHY</h1>
+      
+          
 
           <h3>
             <Link to="/"> PÁGINA INICIAL</Link>
@@ -26,7 +29,7 @@ export function Termo() {
       <SectionTermo>
         <Center>
           <h2>TERMO</h2>
-          <p>TERMO DE CONSETIMENTO LIVRE E ESCLARECIDO</p>
+          <p>TERMO DE CONSENTIMENTO LIVRE E ESCLARECIDO</p>
         </Center>
       </SectionTermo>
 
@@ -118,7 +121,6 @@ export function Termo() {
             <Button title="ACESSAR TOMOGRAFIAS" />
           </Link>
         </Center>
-        
       </Footer>
     </div>
   );

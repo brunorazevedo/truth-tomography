@@ -53,9 +53,9 @@ export const BoxTermo = styled.div`
    margin-top: 64px;
    padding: 12px;
    display: flex;
+   flex-wrap: wrap;
    align-items:stretched;
    justify-content: center;
-   flex-wrap: wrap;
    gap: 48px;
 `;
 
@@ -68,7 +68,7 @@ export const BgTermo = styled.div`
 
    @media(max-width: 550px){
     width: 100%;
-    height: 1100px;
+    height: 1080px;
    }
 
    @media(max-width: 375px){
