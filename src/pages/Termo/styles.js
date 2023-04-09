@@ -104,6 +104,7 @@ export const Footer = styled.div`
     justify-content: center;
     text-align: center;
     margin-bottom: 80px;
+    
 
     p{
         margin-bottom: 16px;
@@ -114,4 +115,16 @@ export const Footer = styled.div`
         font-size: 14px;
         }
     }
+`;
+
+export const FooterScrol = styled.div`
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      padding: 16px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+      flex-direction:column;
 `;

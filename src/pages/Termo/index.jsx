@@ -1,37 +1,29 @@
 import {
   Container,
-  SectionTermo,
   BoxTermo,
   BgTermo,
   BgAssinatura,
-  Footer
+  Footer,
+  FooterScrol,
 } from "./styles";
 import { Center } from "../../components/Center";
 import { Link } from "react-router-dom";
 import { Button } from "../../components/Button";
-
+import { RiArrowUpCircleFill } from "react-icons/ri";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export function Termo() {
   return (
     <div>
       <Container id="termo">
         <Center>
-             <h1>TRUTH TOMOGRAPHY</h1>
-      
-          
+          <h1>TRUTH TOMOGRAPHY</h1>
 
           <h3>
             <Link to="/"> PÁGINA INICIAL</Link>
           </h3>
         </Center>
       </Container>
-
-      <SectionTermo>
-        <Center>
-          <h2>TERMO</h2>
-          <p>TERMO DE CONSENTIMENTO LIVRE E ESCLARECIDO</p>
-        </Center>
-      </SectionTermo>
 
       <BoxTermo>
         <BgTermo>
@@ -110,7 +102,6 @@ export function Termo() {
             height="1100"
             width="500"
           />
-          
         </BgAssinatura>
       </BoxTermo>
 
@@ -120,6 +111,13 @@ export function Termo() {
           <Link to="/tomografias">
             <Button title="ACESSAR TOMOGRAFIAS" />
           </Link>
+
+          <FooterScrol>
+            Ler o Temo
+            <AnchorLink href="#termo">
+              <RiArrowUpCircleFill fontSize={32} />
+            </AnchorLink>
+          </FooterScrol>
         </Center>
       </Footer>
     </div>
