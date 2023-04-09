@@ -28,7 +28,6 @@ export const Container = styled.div`
 export const BgAutores = styled.div`
 
   padding: 48px;
-  border: 1px solid red;;
   margin-top: 48px;
 
   @media (max-width: 375px) {
