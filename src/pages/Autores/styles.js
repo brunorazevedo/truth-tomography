@@ -72,6 +72,7 @@ export const InfoAutores = styled.div`
   margin-left: 48px;
   margin-right:48px;
   margin-bottom: 48px;
+  text-align: center;
 
   @media (max-width: 375px) {
         margin-left: 0px;
@@ -86,6 +87,12 @@ export const InfoAutores = styled.div`
   h2 {
     color: #00b2ff;
 }
+
+h2.autor {
+      width: 250px;
+      font-size:16px;
+}
+
 
     
     @media (max-width: 412px) {
@@ -110,4 +117,17 @@ export const InfoAutores = styled.div`
   a:hover {
     color: #00b2ff;
   }
+`;
+
+export const SectionTermo = styled.div`
+    text-align: center;
+    margin-top: 64px;
+    
+    h2{
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+    p{
+        font-size:14px;
+    }
 `;
