@@ -9,7 +9,7 @@ export function Cards(props){
             <Wrapper>
             <h1>{props.title}</h1>
            <AnchorLink>
-           <Link to="/Termo">CONCORDAR E ASSINAR</Link>
+           <Link to="/termo">CONCORDAR E ASSINAR</Link>
            </AnchorLink>
             </Wrapper>  
         </Container>

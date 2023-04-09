@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { Tomografias } from "./pages/Tomografias";
 import { Termo } from "./pages/Termo";
+import { Autores } from "./pages/Autores";
 
 
 import "primereact/resources/primereact.min.css";
@@ -17,6 +18,7 @@ export function AppRouter(){
                 <Route path="/" element={<Home />} />
                 <Route path="/tomografias" element={<Tomografias />} />
                 <Route path="/termo" element={<Termo />} />
+                <Route path="/autores" element={<Autores />} />
             </Routes>
         </BrowserRouter>
     )

@@ -5,7 +5,7 @@ export const Container = styled.div`
     display: flex;
 
     @media(max-width:550px){
-        margin-top: 100px;
+        margin-top: 130px;
         padding: 0 20px;
     }
 `; 

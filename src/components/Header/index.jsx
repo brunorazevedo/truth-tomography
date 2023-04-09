@@ -28,6 +28,10 @@ export function Header() {
               <Button title="QUERO PARTICIPAR DA PESQUISA"></Button>
             </AnchorLink>
           </li>
+
+          <li>
+            <Link to="/autores"> AUTORES</Link>
+          </li>
         </ul>
       </Nav>
 
