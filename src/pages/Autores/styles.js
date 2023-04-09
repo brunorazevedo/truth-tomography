@@ -4,6 +4,7 @@ export const Container = styled.div`
   width: 100%;
   background-color: #00497e;
   text-align: center;
+  padding:48px;
 
   h1 {
     font-size: 38px;
