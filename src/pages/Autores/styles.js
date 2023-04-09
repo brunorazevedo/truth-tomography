@@ -90,7 +90,7 @@ export const InfoAutores = styled.div`
 
 h2.autor {
       width: 250px;
-      font-size:16px;
+      font-size:18px;
 }
 
 
