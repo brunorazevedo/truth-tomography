@@ -5,6 +5,7 @@ import {
   BgAssinatura,
   Footer,
   FooterScrol,
+  SectionTermo,
 } from "./styles";
 import { Center } from "../../components/Center";
 import { Link } from "react-router-dom";
@@ -24,6 +25,11 @@ export function Termo() {
           </h3>
         </Center>
       </Container>
+
+      <SectionTermo>
+        <h2>TERMO </h2>
+        <p>TERMO DE CONSENTIMENTO LIVRE E ESCLARECIDO</p>
+      </SectionTermo>
 
       <BoxTermo>
         <BgTermo>
