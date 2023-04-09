@@ -73,7 +73,7 @@ export const BgTermo = styled.div`
 
    @media(max-width: 375px){
     width: 100%;
-    height: 1750px;
+    height: 1730px;
    }
 
    p{
@@ -93,6 +93,13 @@ export const BgAssinatura = styled.div`
         width: 100%;
         iframe{
             width: 100%;
+        }
+    }
+
+    @media(max-width: 375px){
+        width: 100%;
+        iframe{
+            height:1150px
         }
 
     }
