@@ -4,7 +4,6 @@ export const Container = styled.div`
   width: 100%;
   background-color: #00497e;
   text-align: center;
-  padding: 60px;
 
   h1 {
     font-size: 38px;
@@ -26,31 +25,39 @@ export const Container = styled.div`
   }
 `;
 
-export const BgAutores = styled.div``;
+export const BgAutores = styled.div`
+
+  padding: 48px;
+  border: 1px solid red;;
+  margin-top: 48px;
+
+  @media (max-width: 375px) {
+    width: 100%;
+    padding: 0;
+    padding: 28px;
+  }
+
+  
+`;
 
 export const BgInfo = styled.div`
-  margin-top: 48px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 64px;
-  @media (max-width: 375px) {
-    height: 800px;
-  }
 
   @media (max-width: 412px) {
-    height: 900px;
+    font-size:14px;
   }
 
-  @media (max-width: 700px) {
-    height: 900px;
-    padding:0;
+  @media (max-width: 550px) {
+    font-size:14px;
   }
 
   img {
     width: 100px;
     height: 100px;
+    margin-bottom: 16px;
   }
 `;
 
@@ -61,24 +68,35 @@ export const InfoAutores = styled.div`
   flex-direction: column;
   background-color: #002e4f;
   padding: 32px;
-  margin-left: 48px;
-  margin-right: 48px;
   border-radius: 32px;
+  margin-left: 48px;
+  margin-right:48px;
+  margin-bottom: 48px;
 
   @media (max-width: 375px) {
-    width: 100%;
-    margin: 0;
-    margin: 0 24px
-  }
+        margin-left: 0px;
+        margin-right:0px;
+        width: 100%;
+        margin-top: 0;
+        padding: 0;
+        padding: 32px;
+    }
+
 
   h2 {
     color: #00b2ff;
-    margin-top: 12px;
+}
 
-    @media (max-width: 375px) {
-      font-size: 22px;
+    
+    @media (max-width: 412px) {
+        margin-left: 0px;
+        margin-right:0px;
     }
-  }
+
+    @media (max-width: 550px) {
+        margin-left: 0px;
+    margin-right:0px;
+    }
 
   p {
     margin-bottom: 32px;
