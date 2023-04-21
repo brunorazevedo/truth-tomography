@@ -57,6 +57,7 @@ export const BoxTermo = styled.div`
    align-items:stretched;
    justify-content: center;
    gap: 48px;
+   border: 1px solid red;
 `;
 
 export const BgTermo = styled.div`
@@ -65,7 +66,8 @@ export const BgTermo = styled.div`
    width: 50%;
    color: #002E4F;
    height: 1100px;
-   overflow: hidden;
+   overflow: scroll;
+   border: 1px solid red;
 
    @media(max-width: 550px){
     width: 100%;
@@ -78,7 +80,7 @@ export const BgTermo = styled.div`
    }
 
    p{
-    font-size: 15px;
+    font-size: 17.5px;
 
     @media(max-width: 550px){
     font-size: 12px;
@@ -89,6 +91,7 @@ export const BgTermo = styled.div`
 
 export const BgAssinatura = styled.div`
     margin-bottom: 80px;
+    
 
     @media(max-width: 550px){
         width: 100%;
