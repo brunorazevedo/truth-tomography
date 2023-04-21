@@ -16,12 +16,12 @@ export function HeaderTomography() {
               <Link to="/"> PÁGINA INICIAL</Link>
             </li>
             <li>
-              <Link to="https://docs.google.com/forms/d/e/1FAIpQLSeggcxu9cGku9MjhRcUjLRCXdW3NfAhZTy6LV0HDfaxzhT_jQ/viewform" target="_blank">
+              <Link to="https://docs.google.com/forms/d/e/1FAIpQLSdCJ0-_-PUDitcubue9ZAGcWB05DjBMTayuXR5d_isu0qikWw/viewform?usp=sf_link" target="_blank">
                 <Button title="QUERO PARTICIPAR DA PESQUISA"></Button>
               </Link>
             </li>
             <li>
-              <Link to="https://docs.google.com/forms/d/e/1FAIpQLSdiHy7pobWiyBH65A59NhRuAJpvBkX545m7A19Vk_Nm12ZDCw/viewform" target="_blank"> AVALIAR O SITE</Link>
+              <Link to="https://docs.google.com/forms/d/e/1FAIpQLSdUJC-VbhYrwl7R4xrvjpNj8TTYDXhaa8NYt_bhU1qBN6JbTw/viewform?usp=sf_link" target="_blank"> AVALIAR O SITE</Link>
             </li>
           </ul>
         </Nav>

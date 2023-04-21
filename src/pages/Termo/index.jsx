@@ -104,7 +104,7 @@ export function Termo() {
 
         <BgAssinatura>
           <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSd9s2vZDTzf2Rj731QNbSxIHmqwPBbI_SITEAFbKCz2uDvWlA/viewform"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSdVZJnsgriMy7Xyffg4WO0QuotuzeAN0SVcbksgTgjWdAP1Dg/viewform?usp=sf_link"
             height="1100"
             width="500"
           />
