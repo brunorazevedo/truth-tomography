@@ -24,16 +24,6 @@ export function ComoFunciona() {
           </p>
         </BgText>
 
-        <h2>MODOS DE VISUALIZAÇÃO</h2>
-
-         <BgCards>
-          <CardView title="DINÂMICA" subtitle="em video" />
-          <CardViewNote title="ESTÁTICA" subtitle="em template" />
-        </BgCards>
-  
- 
-          
-
         <BgText>
          <h3>Navegue pelo nosso site e entenda como a <span>TRUTH TOMOGRAPHY</span> pode agregar a sua prática clínica.</h3>
 
