@@ -65,6 +65,7 @@ export const BgTermo = styled.div`
    width: 50%;
    color: #002E4F;
    height: 1100px;
+   overflow: hidden;
 
    @media(max-width: 550px){
     width: 100%;
@@ -77,7 +78,7 @@ export const BgTermo = styled.div`
    }
 
    p{
-    font-size: 18px;
+    font-size: 15px;
 
     @media(max-width: 550px){
     font-size: 12px;
