@@ -57,7 +57,6 @@ export const BoxTermo = styled.div`
    align-items:stretched;
    justify-content: center;
    gap: 48px;
-   border: 1px solid red;
 `;
 
 export const BgTermo = styled.div`
@@ -67,7 +66,6 @@ export const BgTermo = styled.div`
    color: #002E4F;
    height: 1100px;
    overflow: scroll;
-   border: 1px solid red;
 
    @media(max-width: 550px){
     width: 100%;
