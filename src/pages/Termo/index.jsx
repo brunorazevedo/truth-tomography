@@ -37,7 +37,7 @@ export function Termo() {
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSeggcxu9cGku9MjhRcUjLRCXdW3NfAhZTy6LV0HDfaxzhT_jQ/viewform"
             height="1100"
-            width="500"
+            width="600"
           />
         </BgAssinatura>
       </BoxTermo>
