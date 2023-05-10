@@ -4,7 +4,7 @@ export const AccordionSection = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px 0;
+    margin: 48px 0;
 `;
 
 export const Container = styled.div`

@@ -26,7 +26,7 @@ export const Nav = styled.div`
    }
 
    li{
-      margin-left: 32px;
+      padding:0 32px ;
       list-style-type: none;
       font-weight: bold;
 

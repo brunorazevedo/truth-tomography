@@ -27,8 +27,8 @@ export function ComoFunciona() {
         <BgText>
          <h3>Navegue pelo nosso site e entenda como a <span>TRUTH TOMOGRAPHY</span> pode agregar a sua prática clínica.</h3>
 
-        <p className="teste"> Além disso você que é especialista em Endodontia, Cirurgia, Implantodontia e Ortodontia, está sendo gentilmente convidado a colaborar com a pesquisa científica que será a dissertação de mestrado de um dos nossos desenvolvedores.
-        <Link to="/tomografias"> ACESSAR TOMOGRAFIAS</Link>
+        <p className="teste"> Além disso, você que é especialista em Endodontia, Cirurgia, Implantodontia e Ortodontia, está sendo gentilmente convidado a colaborar com a pesquisa científica que será a dissertação de mestrado de um dos nossos desenvolvedores.
+        
           </p>
         </BgText>
       </Center>
