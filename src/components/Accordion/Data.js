@@ -32,7 +32,7 @@ import Ortodontia_Img3 from "/src/assets/tomography/ortodontia/img3_ortodontia.j
 
 export const Data = [
     {
-        title: 'ENDONDONTIA',
+        title: 'ENDODONTIA',
         textInfo: 'Selecione em qual formato você deseja visualizar os arquivos.',
         file: {
             video: Endondondotia1,
