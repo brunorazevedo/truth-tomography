@@ -16,7 +16,7 @@ export function HeaderTomography() {
               <Link to="/"> PÁGINA INICIAL</Link>
             </li>
             <li>
-              <Link to="https://docs.google.com/forms/d/e/1FAIpQLSdCJ0-_-PUDitcubue9ZAGcWB05DjBMTayuXR5d_isu0qikWw/viewform?usp=sf_link" target="_blank">
+              <Link to="https://docs.google.com/forms/d/e/1FAIpQLSeggcxu9cGku9MjhRcUjLRCXdW3NfAhZTy6LV0HDfaxzhT_jQ/viewform" target="_blank">
                 <Button title="QUERO PARTICIPAR DA PESQUISA"></Button>
               </Link>
             </li>
